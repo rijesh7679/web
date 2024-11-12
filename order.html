@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title ">Food ordering</title>
+    </head>
+    <style>
+        .food{
+            color: rgb(243, 206, 0);
+        }
+        .home a{
+            color: rgb(254, 254, 254);
+            font-size: x-large;
+            margin-right: 100px;
+            font-weight: bold;font-style: italic;
+        }
+        .order a{
+            color: rgb(255, 255, 255);
+            font-size: x-large;
+            margin-right: 100px;
+            font-weight: bold;font-style: italic;
+        }
+        header{
+            background-image: url(https://delicious-blog-11.webself.net/file/si1493111/healthy-food-fi22839066.jpg);
+        }
+
+        footer{
+            background-image: url(https://delicious-blog-11.webself.net/file/si1493111/healthy-food-fi22839066.jpg);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .contact{
+            color: antiquewhite;
+            font-style: initial;
+        }
+        .media a{
+            color: antiquewhite;
+            font-style: initial;
+        }
+        .created{
+            color: rgb(244, 242, 245);
+            
+        }
+        .address{
+            color: antiquewhite;
+        }
+        .order-form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    
+        .order-form h2 {
+            text-align: center;
+            color: #008bf6;
+        }
+    
+        .order-form label {
+            display: block;
+            margin-top: 5px;
+            font-weight: bold;
+        }
+    
+        .order-form input[type="text"],
+        .order-form input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+    
+        .order-form button {
+            width: 48%;
+            padding: 10px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    
+        .order-form button[type="reset"] {
+            background-color: #f44336;
+            color: white;
+        }
+    
+        .order-form button[type="submit"] {
+            background-color: #00abef;
+            color: white;
+            margin-left: 4%;
+        }
+    </style>
+    <body style="background-image: url(https://png.pngtree.com/background/20230528/original/pngtree-an-arrangement-of-various-indian-food-picture-image_2778221.jpg" alt="image" width="20px" height="20px" >
+       <div> <header >
+          <h1><p class="food" align="center"><b>Food Ordering</b></p></h1>
+            <p class="home" align="right"><a href="foodordering.html">home</a></p>
+            <p class="order" align="right">
+                <a href="order.html">order</a>
+
+            </p>
+        </header>
+        <div>
+            <img src="food.jpg" alt="image" width="1px" height="4px"> 
+        </div>
+        
+        
+       </div>
+       <div class="order-form">
+        <h2><marquee ><b><i>Food Order Form</i></b></marquee></h2>
+        <form>
+          
+            <label for="foodName">Food Name:</label>
+            <input type="text" >
+
+           
+            <label for="quantity">Quantity:</label>
+            <input type="number" >
+
+           
+            <label for="price">Price:</label>
+            <input type="number" >
+
+           
+            <div style="display: flex; justify-content: space-between;">
+                <button type="reset">Reset</button>
+                <button type="submit">Order</button>
+            </div>
+        </form>
+    </div>
+       <div>
+        <footer>
+            <div align="left">
+                <p class="contact">contact:8971649968</p>
+                <p class="media"><a href="https://www.instagram.com/foood?igsh=MW5meWliZzZhMmI0bA==">instagram</a></p>
+            </div>
+
+            <div >
+                <p class="created">created by Rijesh</br> date:12:11:2024</p>
+                
+            </div>
+            <div>
+                <p class="address">siddapur,virajpet,kodagu</br>karnataka 571253</p>
+            </div>
+
+        </footer>
+       </div>
+    </body>
+</html>
